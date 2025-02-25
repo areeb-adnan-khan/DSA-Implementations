@@ -1,0 +1,38 @@
+########################
+# Maven & Java Targets #
+########################
+target/
+out/
+*.class
+
+# Logs and temp files
+*.log
+*.tmp
+
+#################
+# IntelliJ IDEA #
+#################
+# Exclude all .idea settings (optional: some teams keep select .idea files)
+.idea/
+# Exclude module settings
+*.iml
+
+# IntelliJ auto-generated files
+*.iws
+*.ipr
+
+###################
+# OS and Misc.    #
+###################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+########################
+# Eclipse (if relevant)
+########################
+.project
+.classpath
+.settings/
