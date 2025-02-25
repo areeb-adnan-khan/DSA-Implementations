@@ -1,5 +1,18 @@
 package com.learn.algorithms.multiplication;
+/**
+ * Karatsuba Multiplication - A Divide and Conquer Algorithm
 
+ * Key Idea:
+ * - Breaks two large numbers into halves and recursively computes three multiplications
+ *   instead of four, reducing time complexity from O(n^2) to O(n^log_2(3)) ≈ O(n^1.585).
+
+ * Base Case:
+ * - If x or y is small (single-digit), return the direct product.
+
+ * Efficiency:
+ * - Faster than traditional multiplication for large numbers.
+ * - Works best when numbers have many digits.
+ */
 public class Karatsuba {
 
     public Karatsuba() {
